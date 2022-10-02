@@ -316,7 +316,7 @@ p#id-selector-2 {
   }
 }
 
-.flex-container {
+.flex-container1 {
   border-width: 5px;
   border-color: black;
   border-style: solid;
@@ -338,14 +338,14 @@ p#id-selector-2 {
   color: white;
 }
 
-.flex-container {
+.flex-container2 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
    display: flex;
 }
 
-.flex-container {
+.flex-container3 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
@@ -353,7 +353,7 @@ p#id-selector-2 {
    justify-content: center;
 }
 
-.flex-container {
+.flex-container4 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
@@ -361,7 +361,7 @@ p#id-selector-2 {
    justify-content: end;
 }
 
-.flex-container {
+.flex-container5 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
@@ -369,7 +369,7 @@ p#id-selector-2 {
    justify-content: space-around;
 }
 
-.flex-container {
+.flex-container6 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
@@ -377,7 +377,25 @@ p#id-selector-2 {
    justify-content: space-between;
 }
 
-.flex-container {
+.flex-container7 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+}
+
+.flex-container8 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.flex-container9 {
    border-width: 5px;
    border-color: black;
    border-style: solid;
