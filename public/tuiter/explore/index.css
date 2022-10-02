@@ -137,3 +137,29 @@
 .wd-ellipsis {
     float: right;
 }
+
+.wd-icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.wd-icon-stack-1x,
+.wd-icon-stack-2x,
+.icon-stack-3x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.wd-icon-stack-1x {
+    line-height: inherit;
+}
+.wd-icon-stack-2x {
+    font-size: 1.5em;
+}
+.wd-icon-stack-3x {
+font-size: 2em;
+}
