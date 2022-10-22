@@ -21,7 +21,7 @@ const PostItem = ({post}) => {
                         .
                         <small className="m-1 text-muted">{post.time}</small>
                     </span>
-                    <div className="wd-post-title">
+                    <div className="wd-post-title ">
                         <p className="h6">{post.posttitle}</p>
                     </div>
                     <div className="wd-content">
