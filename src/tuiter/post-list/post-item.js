@@ -6,7 +6,7 @@ const PostItem = ({post}) => {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={post.profileimage} className="rounded-circle wd-profile-image"/>
+                    <img src={`../../assets/${post.profileimage}`} className="rounded-circle wd-profile-image"/>
                 </div>
                 
                 <div className="col">
@@ -25,7 +25,7 @@ const PostItem = ({post}) => {
                         <p className="h6">{post.posttitle}</p>
                     </div>
                     <div className="wd-content">
-                        <img src={post.image} className="rounded wd-image border"/>
+                        <img src={`../../assets/${post.image}`} className="rounded wd-image border"/>
                         <div>
                             <h5 className="wd-text-title" style={{fontSize: "18px"}}>{post.title}</h5>
                             <small className="text-muted">{post.description}</small>
