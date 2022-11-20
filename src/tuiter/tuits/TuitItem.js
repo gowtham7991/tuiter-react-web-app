@@ -14,7 +14,7 @@ const TuitItem = ({tuit}) => {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={tuit.image} className="rounded-circle wd-profile-image"/>
+                    <img src={`../../assets/${tuit.image}`} className="rounded-circle wd-profile-image"/>
                 </div>
                 
                 <div className="col">
